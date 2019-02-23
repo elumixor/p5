@@ -52,4 +52,9 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
-
+node_modules
+dist
+*.js
+*.js.map
+!webpack.config.js
+!lib/**/*.*

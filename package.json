@@ -1,0 +1,32 @@
+{
+  "name": "p5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --progress --port 8080 --hot --mode development "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elumixor/p5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elumixor/p5/issues"
+  },
+  "homepage": "https://github.com/elumixor/p5#readme"
+}
